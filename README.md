@@ -4,6 +4,9 @@ Optional plugins for FancyBox
 ## FancyBox VK / RuTube
 Плагин VKRT добавляет возможность использовать видео, клипы и shorts из VK и RuTube в FancyBox, указывая их обычными ссылками.
 
+В корне находятся файлы *.vkrt.css и .vkrt.js. Подключаются поверх ваших файлов FancyBox.
+В директории /merged/ находятся готовые модифицированные файлы FancyBox. Они уже работают с VK и RuTube и не требуют подключения VKRT отдельно.
+
 Подключается после оригинальных файлов:
 ```
 <link rel="stylesheet" href="fancybox.css" />
